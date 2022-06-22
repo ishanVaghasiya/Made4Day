@@ -1,0 +1,21 @@
+.navbar_container {
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--darkBlue);
+    color: var(--primary);
+    padding: 15px;
+    font-size: 1.1rem;
+    box-shadow: 0px 2px 7px -1px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0px 2px 7px -1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 2px 7px -1px rgba(0, 0, 0, 0.75);
+}
+
+
+.navbar_btn {
+    color: red;
+    padding: 10px 12px;
+    background-color: var(--primary);
+}

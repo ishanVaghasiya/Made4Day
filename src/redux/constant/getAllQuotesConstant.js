@@ -1,0 +1,1 @@
+export const GET_ALL_QUOTES  = "GET_ALL_QUOTES"

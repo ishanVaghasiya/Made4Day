@@ -1,0 +1,27 @@
+.quotes_container {
+    padding: 18px;
+    background-color: var(--secondary);
+    border-radius: 13px;
+    -webkit-box-shadow: 0px 2px 7px -1px rgba(125, 125, 125, 1);
+    -moz-box-shadow: 0px 2px 7px -1px rgba(125, 125, 125, 1);
+    box-shadow: 0px 2px 7px -1px rgba(125, 125, 125, 1);
+    margin-bottom: 1rem;
+  
+  }
+  .quotes_text {
+    text-align: justify;
+    color: var(--darkOcean);
+    font-weight: 500;
+  }
+  
+  .quotes_btn {
+    display: flex;
+    justify-content: end;
+  }
+  
+  .quotes_btn > button {
+    all: unset;
+    cursor: pointer;
+    font-size: 20px;
+    color: white;
+  }
